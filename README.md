@@ -13,3 +13,6 @@ A fun, interactive, and customizable slot machine built with HTML, CSS, JavaScri
    ```bash
    git clone https://github.com/your-username/slot-machine.git
    cd slot-machine
+## Demo:
+🚀 [Live Demo Link](https://FlowerGodzilla.github.io/slot-machine)
+
