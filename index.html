@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Slot Machine</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="d58Et_hG0KrLc6xKv03J8U5NA6jqak0kCFxBaz7Y1MM" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="panel panel-primary">
+            <div style="font-size: 30px; text-align: center; font-weight: bold;">
+                Slot Machine
+            </div>
+            
+            
+            <div class="panel-body">
+                <div class="slotwrapper" id="example1">
+                    <ul>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                        <li>6</li>
+                        <li class="text-danger">7</li>
+                        <li>8</li>
+                        <li>9</li>
+                    </ul>
+                    <ul>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                        <li>6</li>
+                        <li class="text-danger">7</li>
+                        <li>8</li>
+                        <li>9</li>
+                    </ul>
+                    <ul>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                        <li>6</li>
+                        <li class="text-danger">7</li>
+                        <li>8</li>
+                        <li>9</li>
+                    </ul>
+                </div><center>
+                <div>
+                    <button type="button" class="btn btn-success btn-lg" id="btn-example1"><center>Spin!</center></button>
+                    
+                </div></center>
+                
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/slotmachine.js"></script>
+
+    <script type="text/javascript">
+        $('#btn-example1').click(function() {
+            $('#example1 ul').playSpin();
+        });
+    </script>
+</body>
+</html>
